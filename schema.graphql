@@ -1,0 +1,11 @@
+type Transfer @entity {
+  id: ID!
+
+  amount: BigInt!
+
+  blockNumber: BigInt!
+
+  from: String!
+
+  to: String!
+}
